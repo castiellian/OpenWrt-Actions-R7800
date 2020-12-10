@@ -1,0 +1,33 @@
+Package: luci-app-ssr-plus
+Version: 181-2
+Depends: libc, shadowsocksr-libev-alt, ipset, ip-full, iptables-mod-tproxy, dnsmasq-full, coreutils, coreutils-base64, pdnsd-alt, wget, lua, libuci-lua, microsocks, dns2socks, shadowsocks-libev-ss-local, shadowsocksr-libev-ssr-local, shadowsocks-libev-ss-redir, simple-obfs, tcping, resolveip, v2ray, xray, trojan, ipt2socks, redsocks2
+Section: luci
+Architecture: all
+Installed-Size: 151719
+Filename: luci-app-ssr-plus_181-2_all.ipk
+Size: 151264
+SHA256sum: 6515d34f8be135fa1cabf319fc0501b7cfdfadea2ac22de88ff3ee578db4efe5
+Description:  SS/SSR/V2Ray/Xray/Trojan/NaiveProxy/Socks5/Tun LuCI interface
+
+Package: luci-i18n-ssr-plus-zh-cn
+Version: 181-2
+Depends: libc, luci-app-ssr-plus
+Section: luci
+Architecture: all
+Installed-Size: 6149
+Filename: luci-i18n-ssr-plus-zh-cn_181-2_all.ipk
+Size: 6993
+SHA256sum: 8316df629ee7051ee31d980c0b178422c215bbbbf1a4c48458b8775849199d1e
+Description:  Translation for luci-app-ssr-plus - 简体中文 (Simplified Chinese)
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3280
+Filename: tcping_0.3-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 3957
+SHA256sum: 655e3333a87d8e5cf39ee599ce0d2f4a01b44a3dd63a2936c2f62e363272b36c
+Description:  tcping measures the latency of a tcp-connection
+
